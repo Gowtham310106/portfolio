@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gowtham Kumar's portfolio showcasing projects, skills, and contact information.">
+    <meta name="keywords" content="Frontend Developer, Portfolio, Gowtham Kumar, Web Developer">
+    <meta name="author" content="Gowtham Kumar">
+    <title>Gowtham's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body >
+    <header>
+        <a class="logo" href="#home"><img src="images/logo.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="#home"  class="ho" style="--i:0">Home</a>
+            <a href="#about" class="ab" style="--i:1">About</a>
+            <a href="#skill" class="sk" style="--i:2">Skills</a>
+            <a href="#project" class="pr" style="--i:3">Projects</a>
+            <a href="#education" class="ed" style="--i:4">Education</a>
+            <a href="#contact" class="co" style="--i:5">Contact</a>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>GOWTHAM KUMAR</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>
+                A fascinating Fullstack Developer with creative thinking<br>
+                
+            </p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/profile.php?id=100050975210709" target="_blank" style="--i:5">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://github.com/Gowtham310106" target="_blank" style="--i:6">
+                    <i class="bx bxl-github" ></i>
+                </a>
+                <a href="https://wa.me/919789502278" target="_blank" style="--i:7">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gowtham-kumar-260080332/" target="_blank" style="--i:8">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+            </div>
+            <a class="btn-box" href="#about">Know More About Me</a>
+        </div>
+
+        <div class="profile-picture">
+            <img class="profile" src="images/plazo.jpeg" alt="Gowtham Kumar">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/plazo.jpeg" alt="Gowtham">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Fullstack Developer</h4>
+            <p>
+                I am a passionate Full Stack Developer with a creative mindset and a strong eye for design and functionality. I specialize in building robust, scalable, and visually appealing web applications using modern technologies like HTML, CSS, JavaScript, and frameworks like Bootstrap and React for the frontend, along with Node.js, Express, and MongoDB for the backend. With a focus on delivering seamless user experiences and efficient backend logic, I enjoy transforming ideas into responsive, interactive, and dynamic full-stack web solutions. I’m constantly learning and exploring new tools and technologies to enhance my skills and bring innovative digital solutions to life.
+            </p>
+            <a href="#service" class="btn-box">More About Me </a>
+        </div>
+    </section>
+    <section id="service">
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code'></i>
+                        <h2>Frontend Development</h2>
+                        <p>I specialize in crafting responsive and dynamic websites using modern frameworks and
+                            technologies, ensuring a seamless user experience.</p>
+                        <a class="read" href="#skill">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop'></i>
+                        <h2>Backend Development</h2>
+                        <p>I build efficient and scalable backend systems,blending logical architecture with robust functionality to deliver reliable and high performance digital solutions</p>
+                        <a class="read" href="#skill">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-apple'></i>
+                        <h2>Web Optimization</h2>
+                        <p>I focus on optimizing websites for speed and performance, ensuring smooth functionality and
+                            faster load times for all users.</p>
+                        <a class="read" href="#skill">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="skill">
+
+        <h1 class="sub-title2">My <span>Skills</span></h1>
+        <div class="container1" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-html5' style="color:#c95d2e;"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-css3' style="color: #147bbc;"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-javascript' style="color: #b0bc1e;"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line JavaScript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-python' style="color: #c32ec9;"></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line Python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-react' style="color: #61DAFB;"></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-nodejs' style="color: #3dd81e;"></i>
+                    <div class="info">
+                        <span>Node.js</span>
+                    </div>
+                    <div class="progress-line node">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-express-js' style="color: #1d353b;"></i>
+                    <div class="info">
+                        <span>Express.JS</span>
+                    </div>
+                    <div class="progress-line express">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-postgresql' style="color: #32afd1;"></i>
+                    <div class="info">
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="progress-line sql">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-lock' style="color: #61DAFB;"></i>
+                    <div class="info">
+                        <span>REST API</span>
+                    </div>
+                    <div class="progress-line api">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-lock' style="color: #61DAFB;"></i>
+                    <div class="info">
+                        <span>O authendication</span>
+                    </div>
+                    <div class="progress-line authendication">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <i class='bx bxl-c-plus-plus' style="color: #61DAFB;"></i>
+                    <div class="info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progress-line c">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars" >  
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path2" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">86%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path3" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">92%</div>
+                    <div class="text">Leadership</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path4" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                
+            </div>     
+        </div>
+    
+        
+    </section>
+    <section id="project">
+        <div class="main-text">
+            <h2>Latest <span>Projects</span></h2> 
+            <div class="portfolio-content">
+
+                
+                <div class="row">
+                    <img src="images/ui.jpg" alt="UI/UX Project 1">
+                    <div class="layer">
+                        <h5>UI/UX Designer</h5>
+                        <p>
+                            I created a user-friendly website that is visually appealing and easy to navigate. Tools like Figma and Adobe XD helped in designing and testing the layout to provide a smooth user experience.
+                        </p>
+                        <a href="https://gowtham310106.github.io/calculator/" target="_blank"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+    
+                
+                <div class="row">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/053/221/729/small_2x/checklist-business-performance-monitoring-concept-business-using-tablet-online-survey-filling-out-check-digital-form-task-photo.jpg" alt="Mini Games">
+                    <div class="layer">
+                        <h5>Full Stack TODO List</h5>
+                        <p>
+                            This project focused on implementing the knowledge of both front and backend with handling data properly.
+                        </p>
+                        <a href="https://github.com/Gowtham310106/TODO" target="_blank" ><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div>
+    
+         
+                <!-- <div class="row">
+                    <img src="images/4174812.jpg" alt="Project Image">
+                    <div class="layer">
+                        <h5>UI/UX Designer</h5>
+                        <p>
+                            Another creative project where I designed a modern interface, ensuring accessibility and user satisfaction. The design aimed to solve specific user challenges effectively.
+                        </p>
+                        <a href="#"><i class="bx bx-link-external"></i></a>
+                    </div>
+                </div> -->
+    
+            </div>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h2 class="sub-title2">My <span>Education</span></h2>
+        <div class="education-cards">
+                       <div class="card">
+                <h2>College</h2>
+                <p>I'm currently pursuing my B.Tech in Electronics and Communication Engineering at Velammal Institute of Technology,whe I've build a strong foundation in both theory and practical applications of mordern tech With Current CGPA of 8.8.</p>
+                
+
+            </div>
+            <div class="card">
+                <h2>NEET Journey</h2>
+                <p>Although I prepared intensively for the NEET exam ,the journey taught me resilience ,disipline,time management and problem solving -skills that fuel my passion in tech,my NEET-2024 score was 537</p>
+             
+
+            </div>
+             <div class="card">
+                <h2>School</h2>
+                <p>I had studied at Infant Jesus Matriculation school in Devakottai at Sivagangai district,My school years shaped my curiosity and Creativity.I actively participated in science fairs and I'm the captain for boys throwball team,sparking my innovations early on .</p>
+               
+            </div>
+            
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Feel free to get in touch! Whether you have a question, feedback, or just want to connect, I'm always open to conversations.Let's collaborate and create something amazing!
+
+            </p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i>gowtham310106@gmail.com</li>
+                <li><i class='bx bx-phone' ></i>+91 9789502278</li>
+                
+
+                
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/gowtham-kumar-260080332/" target="_blank" style="--i:5"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/Gowtham310106" target="_blank" style="--i:6"><i class="bx bxl-github"></i></a>
+                <a href="https://wa.me/919789502278" target="_blank" style="--i:7"><i class="bx bxl-whatsapp" ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100050975210709" target="_blank" style="--i:8"><i class="bx bxl-facebook"></i></a>
+            </div>
+        </div>    
+        <div class="contact-form">
+            <form action="#contact">
+                <input type="text" placeholder="Enter Your Name"required>
+                <input type="email"placeholder="Enter Your Email "required>
+                <input type="text" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="submit" class="sent">
+
+            </form>
+
+            
+
+
+        </div>
+    </section>
+    <a href="#home" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="main.js" charset="UTF-8"></script>
+</body>
+
+</html>
